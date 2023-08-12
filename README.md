@@ -19,7 +19,7 @@ pip install -r requirements.txt
 python3 server.py --model "musabgultekin/functionary-7b-v1"
 ```
 
-Or start blazing fast [vLLM](https://vllm.readthedocs.io/en/latest/getting_started/installation.html) server:
+Or start a blazing fast [vLLM](https://vllm.readthedocs.io/en/latest/getting_started/installation.html) server:
 
 ```shell
 python3 server_vllm.py --model "musabgultekin/functionary-7b-v1" --host 0.0.0.0
